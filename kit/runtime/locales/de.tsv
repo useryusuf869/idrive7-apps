@@ -56,7 +56,7 @@ Hide (RWD)	Ausblenden (Heckantrieb)
 No (12 V only)	Nein (nur 12 V)
 Speed unit	Geschwindigkeitseinheit
 Speed display rate	Aktualisierung Geschwindigkeit
-Speed	Geschwindigkeit
+Speed	Tempo
 Power unit	Leistungseinheit
 Torque unit	Drehmomenteinheit
 Temperature unit	Temperatureinheit
@@ -2180,3 +2180,344 @@ back after an ignition cycle	nach Zündungswechsel wieder da
 Press again to switch xDrive back on	Erneut drücken, um xDrive wieder einzuschalten
 xDrive is back · the transfer case reports it on	xDrive ist zurück · das Verteilergetriebe meldet es als ein
 Cleared; back at once (still present):	Gelöscht; sofort wieder da (noch vorhanden):
+80s digital dash	80er-Digitalanzeige
+Advanced	Erweitert
+Bottom right corner	Ecke unten rechts
+Auto (learns from your shifts)	Auto (lernt aus deinen Schaltungen)
+Learning (experimental)	Lernen (experimentell)
+HUD: look	HUD: Look
+HUD: readouts	HUD: Anzeigen
+HUD: alerts	HUD: Hinweise
+HUD: place	HUD: Position
+HUD: tyres	HUD: Reifen
+Colour	Farbe
+Dim	Dunkel
+Simple	Einfach
+Size	Größe
+Centre	Mitte
+Screen	Bildschirm
+HUD looks	HUD-Looks
+Minimal	Minimal
+VFD glow	VFD-Leuchten
+Vector arcade	Vektor-Arcade
+Arc (F80 M3/M4)	Arc (F80 M3/M4)
+Ramp (G80 M3/M4)	Ramp (G80 M3/M4)
+Pill	Pill
+Comfort / Eco	Comfort / Eco
+Comfort / Eco Pro	Comfort / Eco Pro
+SHOWS	ZEIGT
+Same as Sport	Wie Sport
+Its own	Eigenes
+Don't show	Nicht anzeigen
+Play on HUD	Im HUD abspielen
+Stop	Stopp
+Playing on the HUD...	Läuft im HUD...
+Stop the car to play it on the HUD	Auto anhalten, um es im HUD abzuspielen
+Show on HUD is off (Settings)	Im HUD anzeigen ist aus (Einstellungen)
+The HUD needs cluster-render: install Cluster renderer from the MGU Store	Das HUD braucht cluster-render: Cluster renderer aus dem MGU Store installieren
+Redline's HUD is off in Comfort / Eco Pro	Das Redline-HUD ist in Comfort / Eco Pro aus
+Redline's HUD is off in Hybrid / Electric	Das Redline-HUD ist in Hybrid / Electric aus
+BMW's own HUD shows instead. Pick Same as Sport or Its own to bring it back	Stattdessen zeigt BMW sein eigenes HUD. Wie Sport oder Eigenes wählen, um es zurückzuholen
+Comfort / Eco Pro uses the Sport HUD. Change anything here to give it its own.	Comfort / Eco Pro nutzt das Sport-HUD. Ändere hier etwas, um ihm ein eigenes zu geben.
+Hybrid / Electric uses the Sport HUD. Change anything here to give it its own.	Hybrid / Electric nutzt das Sport-HUD. Ändere hier etwas, um ihm ein eigenes zu geben.
+Changes here only affect Comfort / Eco Pro, its size and place too.	Änderungen hier gelten nur für Comfort / Eco Pro, auch Größe und Position.
+Changes here only affect Hybrid / Electric, its size and place too.	Änderungen hier gelten nur für Hybrid / Electric, auch Größe und Position.
+LOOK	LOOK
+GAUGE	ANZEIGE
+READOUTS	WERTE
+ALERTS	HINWEISE
+PLACE	POSITION
+Colours, gear font, labels and how the rpm reads	Farben, Gang-Schriftart, Beschriftungen und Darstellung der Drehzahl
+The shift lights and their colours (the screen uses them too); tap a part to show or hide it	Der Schaltblitz und seine Farben (auch auf dem Bildschirm); einen Teil antippen zum Ein- oder Ausblenden
+Up to four show, in this order; a cold or hot one keeps its place. Units: Settings	Bis zu vier werden gezeigt, in dieser Reihenfolge; ein kalter oder heißer behält seinen Platz. Einheiten: Einstellungen
+After an upshift, on knock, after a standing start; Shake: on the limiter. And the downshift arrows	Nach dem Hochschalten, bei Klopfen, nach einem Start aus dem Stillstand; Wackeln: am Begrenzer. Und die Rückschaltpfeile
+Where the directions go, when they have no turn; it moves with them. Shown big here	Wo die Abbiegehinweise stehen, wenn keine Abbiegung ansteht; es wandert mit. Hier groß dargestellt
+Where the HUD of this setup sits on the glass	Wo das HUD dieses Setups auf der Scheibe sitzt
+on: the first	an: die ersten
+that have a value show	mit einem Wert werden gezeigt
+Partly outside the windshield	Teilweise außerhalb der Windschutzscheibe
+as measured on one car	an einem Auto gemessen
+LABELS	BESCHRIFTUNG
+Clearer	Klarer
+RPM AS	DREHZAHL ALS
+Exact	Genau
+Steady	Ruhig
+Thousands	Tausender
+LIGHTS	LICHTER
+COLOURS	FARBEN
+Race	Race
+One colour	Eine Farbe
+Gear mode	Getriebemodus
+UNLIT	UNBELEUCHTET
+Power bar	Leistungsbalken
+Knock	Klopfen
+TEMPS	TEMP.
+Cold limit	Kaltgrenze
+GRADE	NOTE
+Burst	Burst
+When braking	Beim Bremsen
+ALSO	AUCH
+Knock warning	Klopfwarnung
+Launch time	Startzeit
+Shake	Wackeln
+ARROWS	PFEILE
+ARROWS TO	PFEILE ZU
+Every gear	Jeder Gang
+Best gear	Bester Gang
+When low	Wenn niedrig
+UNIT	EINHEIT
+PARTS	TEILE
+Car	Auto
+MOVE	BEWEGEN
+SIZE	GRÖSSE
+Smaller	Kleiner
+Bigger	Größer
+corner	Ecke
+centre	Mitte
+Off: not shown on the HUD	Aus: nicht im HUD
+Your tyres now	Deine Reifen jetzt
+A sample	Ein Beispiel
+Your tyres now; on the HUD only while a tyre is low	Deine Reifen jetzt; im HUD nur, wenn ein Reifen zu wenig Druck hat
+A sample; on the HUD only while a tyre is low	Ein Beispiel; im HUD nur, wenn ein Reifen zu wenig Druck hat
+HV VOLTS	HV-SPANNUNG
+PERFECT SHIFT	PERFEKT GESCHALTET
+HUD: on	HUD: an
+HUD: off after display errors	HUD: aus nach Anzeigefehlern
+HUD: giving way to BMW's directions	HUD: macht Platz für BMWs Abbiegehinweise
+HUD: giving way to BMW	HUD: macht Platz für BMW
+HUD: hidden in Comfort / Eco Pro	HUD: in Comfort / Eco Pro ausgeblendet
+HUD: cluster-render not running · install Cluster renderer from the MGU Store	HUD: cluster-render läuft nicht · Cluster renderer aus dem MGU Store installieren
+RESET	RESET
+NORMAL	NORMAL
+Torque curve (full load)	Drehmomentkurve (Volllast)
+Nothing yet: full-throttle pulls, a few from low rpm, fill it in	Noch nichts: Vollgas-Beschleunigungen, einige ab niedriger Drehzahl, füllen sie
+Shift points	Schaltpunkte
+Reset all	Alles zurücksetzen
+RPM PER KM/H	U/MIN PRO KM/H
+learning	lernt
+Shift points need full-throttle pulls up to the redline	Schaltpunkte brauchen Vollgas-Beschleunigungen bis zum roten Bereich
+1 of 2 limiter hits seen	1 von 2 Begrenzer-Treffern erkannt
+one more, held half a second, oil warm	noch einer, eine halbe Sekunde gehalten, Öl warm
+learns after two hits of the limiter, each held half a second, oil warm	lernt nach zwei Begrenzer-Treffern, je eine halbe Sekunde gehalten, Öl warm
+REACTION	REAKTION
+manual	manuell
+profile	Profil
+CAR	AUTO
+Petrol car	Benziner
+Diesel car	Diesel
+Petrol hybrid	Benzin-Hybrid
+Diesel hybrid	Diesel-Hybrid
+set by hand	von Hand gesetzt
+Tyre sensors	Reifensensoren
+No tyre sensors	Keine Reifensensoren
+Press Reset learned again to forget it all	Gelerntes zurücksetzen erneut drücken, um alles zu vergessen
+Learning off: values kept	Lernen aus: Werte bleiben erhalten
+graded	benotet
+vs shift point	ggü. Schaltpunkt
+CRUISE	GLEITEN
+Animations	Animationen
+Driving modes	Fahrmodi
+Favourites	Favoriten
+Red	Rot
+Orange	Orange
+Amber	Amber
+Yellow	Gelb
+Green	Grün
+Cyan	Cyan
+Blue	Blau
+Violet	Violett
+Pink	Pink
+White	Weiß
+Looking for the car's lights...	Suche die Lichter des Autos...
+The car's lights did not answer	Die Lichter des Autos haben nicht geantwortet
+Original colour (as set in BMW's menu)	Originalfarbe (wie im BMW-Menü eingestellt)
+On in the car:	Im Auto an:
+Colour for Sport	Farbe für Sport
+Colour for Comfort	Farbe für Comfort
+Colour for Eco Pro	Farbe für Eco Pro
+Colour for Adaptive	Farbe für Adaptive
+Colour for Hybrid	Farbe für Hybrid
+Colour for Electric	Farbe für Electric
+Animation for Sport	Animation für Sport
+Animation for Comfort	Animation für Comfort
+Animation for Eco Pro	Animation für Eco Pro
+Animation for Adaptive	Animation für Adaptive
+Animation for Hybrid	Animation für Hybrid
+Animation for Electric	Animation für Electric
+Sport will look	Sport sieht so aus
+Comfort will look	Comfort sieht so aus
+Eco Pro will look	Eco Pro sieht so aus
+Adaptive will look	Adaptive sieht so aus
+Hybrid will look	Hybrid sieht so aus
+Electric will look	Electric sieht so aus
+Changing Sport's look	Look von Sport ändern
+Changing Comfort's look	Look von Comfort ändern
+Changing Eco Pro's look	Look von Eco Pro ändern
+Changing Adaptive's look	Look von Adaptive ändern
+Changing Hybrid's look	Look von Hybrid ändern
+Changing Electric's look	Look von Electric ändern
+It shows whenever Sport is on.	Er erscheint immer, wenn Sport an ist.
+It shows whenever Comfort is on.	Er erscheint immer, wenn Comfort an ist.
+It shows whenever Eco Pro is on.	Er erscheint immer, wenn Eco Pro an ist.
+It shows whenever Adaptive is on.	Er erscheint immer, wenn Adaptive an ist.
+It shows whenever Hybrid is on.	Er erscheint immer, wenn Hybrid an ist.
+It shows whenever Electric is on.	Er erscheint immer, wenn Electric an ist.
+In the car	Im Auto
+Whole car	Ganzes Auto
+Upper lights	Obere Lichter
+Lower lights	Untere Lichter
+Colouring	Färbung
+Brightness	Helligkeit
+Upper	Oben
+Lower	Unten
+Original colour	Originalfarbe
+Save favourite	Favorit speichern
+Any colour needs the body module, which did not answer.	Freie Farben brauchen das Karosseriemodul, das nicht geantwortet hat.
+BMW's own colours meanwhile:	Bis dahin BMWs eigene Farben:
+Look again	Erneut suchen
+Animation	Animation
+No animation, a steady colour	Keine Animation, eine feste Farbe
+Slowly brighter and dimmer	Langsam heller und dunkler
+Every colour in turn	Alle Farben nacheinander
+Upper colour to lower colour and back	Von der oberen zur unteren Farbe und wieder zurück
+Colour moving from the dash to the rear	Farbe wandert vom Armaturenbrett nach hinten
+Colours: on the Colour tab	Farben: im Tab Farbe
+writes a second	Schreibvorgänge pro Sekunde
+frames a second	Bilder pro Sekunde
+BMW's original colour	BMWs Originalfarbe
+The Colour tab's colour	Die Farbe aus dem Tab Farbe
+Choose colour	Farbe wählen
+Nothing chosen: the Colour tab's colour. Tap Original colour again to undo it.	Nichts gewählt: die Farbe aus dem Tab Farbe. Originalfarbe erneut antippen, um es rückgängig zu machen.
+Empty	Leer
+Tap to save the look on now	Antippen, um den aktuellen Look zu speichern
+Delete	Löschen
+Solid	Dauerlicht
+Breathing	Atmen
+Rainbow	Regenbogen
+Smooth fade	Sanfter Übergang
+Colour wave	Farbwelle
+Welcome sweep	Begrüßungslauf
+the body module refused	das Karosseriemodul hat abgelehnt
+no answer from the body module	keine Antwort vom Karosseriemodul
+refused (security access) · try diagnostic mode: press Start 3 times without the brake, then again	abgelehnt (Sicherheitszugriff) · Diagnosemodus versuchen: Start 3-mal ohne Bremse drücken, dann erneut
+security access · try diagnostic mode (Start 3 times, no brake); else this VIP needs an unlock	Sicherheitszugriff · Diagnosemodus versuchen (Start 3-mal, ohne Bremse); sonst braucht dieses VIP eine Freischaltung
+Logs	Protokolle
+Directions	Abbiegehinweise
+Cluster renderer	Cluster renderer
+Refresh	Aktualisieren
+What Redline and the HUD did lately	Was Redline und das HUD zuletzt getan haben
+Auto (Barlow on Arc and Dial, squared on Ramp)	Auto (Barlow bei Arc und Dial, eckig bei Ramp)
+Speed (km/h or mph, as Speed unit; on Ramp under the gear)	Tempo (km/h oder mph, wie Geschwindigkeitseinheit; bei Ramp unter dem Gang)
+HUD: waits for the car to be switched on	HUD: wartet, bis das Auto eingeschaltet ist
+HUD: off in the settings	HUD: in den Einstellungen aus
+newest first	neueste zuerst
+times UTC	Zeiten in UTC
+Nothing important in the last	Nichts Wichtiges in den letzten
+No log yet in	Noch kein Protokoll in
+Could not read	Konnte nicht lesen:
+Apps may not read	Apps dürfen nicht lesen:
+not a file	keine Datei
+No cluster-render log here (not installed, or an older Cluster renderer)	Kein cluster-render-Protokoll hier (nicht installiert oder ein älterer Cluster renderer)
+cluster-render started	cluster-render gestartet
+Another ambient app	Eine andere Ambiente-App
+IterioDev's Comfort tool is running. It changes the ambient lights too, so the colours jump between the two apps. Uninstall it in the Store (Installed, Head-unit tools, Comfort) and use one ambient app at a time.	Das Comfort-Tool von IterioDev läuft. Es ändert ebenfalls das Ambientelicht, daher springen die Farben zwischen beiden Apps. Deinstalliere es im Store (Installed, Head-unit tools, Comfort) und nutze nur eine Ambiente-App.
+Left	Links
+Right	Rechts
+Turn signal glow	Blinker-Leuchten
+Open door red	Offene Tür rot
+Colour for	Farbe für
+Animation for	Animation für
+will look	sieht so aus
+It shows whenever	Er erscheint immer bei
+writes a second,	Schreibvorgänge pro Sekunde,
+lights	Lichter
+Any colour on the ambient light, animations, and a look for each driving mode	Freie Farben fürs Ambientelicht, Animationen und ein Look für jeden Fahrmodus
+Footwell driver front	Fußraum Fahrer vorn
+Footwell driver rear	Fußraum Fahrer hinten
+Footwell passenger front	Fußraum Beifahrer vorn
+Footwell passenger rear	Fußraum Beifahrer hinten
+Driver front door line	Fahrertür vorn Lichtleiste
+Driver front door decor	Fahrertür vorn Dekor
+Driver front door handle	Fahrertür vorn Griff
+Driver front door pocket	Fahrertür vorn Ablage
+Driver rear door line	Fahrerseite hinten Lichtleiste
+Driver rear door decor	Fahrerseite hinten Dekor
+Driver rear door pocket	Fahrerseite hinten Ablage
+Driver rear door handle	Fahrerseite hinten Griff
+Passenger front door line	Beifahrertür vorn Lichtleiste
+Passenger front door decor	Beifahrertür vorn Dekor
+Passenger front door handle	Beifahrertür vorn Griff
+Passenger front door pocket	Beifahrertür vorn Ablage
+Passenger rear door line	Beifahrerseite hinten Lichtleiste
+Passenger rear door decor	Beifahrerseite hinten Dekor
+Passenger rear door pocket	Beifahrerseite hinten Ablage
+Passenger rear door handle	Beifahrerseite hinten Griff
+Dash line driver	Armaturenbrett Lichtleiste Fahrer
+Dash decor driver	Armaturenbrett Dekor Fahrer
+Dash line centre	Armaturenbrett Lichtleiste Mitte
+Dash decor centre	Armaturenbrett Dekor Mitte
+Dash line passenger	Armaturenbrett Lichtleiste Beifahrer
+Dash decor passenger	Armaturenbrett Dekor Beifahrer
+B-pillar driver	B-Säule Fahrer
+B-pillar passenger	B-Säule Beifahrer
+Driver seat back	Sitzlehne Fahrer
+Passenger seat back	Sitzlehne Beifahrer
+Driver seat back, 2nd row	Sitzlehne Fahrer, 2. Reihe
+Passenger seat back, 2nd row	Sitzlehne Beifahrer, 2. Reihe
+Centre stack tray	Ablage Mittelkonsole oben
+Console tray	Ablage Konsole
+Gear selector left	Wählhebel links
+Gear selector right	Wählhebel rechts
+Console line driver front	Konsole Lichtleiste Fahrer vorn
+Console line driver rear	Konsole Lichtleiste Fahrer hinten
+Console line passenger front	Konsole Lichtleiste Beifahrer vorn
+Console line passenger rear	Konsole Lichtleiste Beifahrer hinten
+Console decor driver front	Konsole Dekor Fahrer vorn
+Console decor driver rear	Konsole Dekor Fahrer hinten
+Console decor passenger front	Konsole Dekor Beifahrer vorn
+Console decor passenger rear	Konsole Dekor Beifahrer hinten
+Sunroof front left	Glasdach vorn links
+Sunroof front left rear	Glasdach vorn links hinten
+Sunroof front right	Glasdach vorn rechts
+Sunroof front right rear	Glasdach vorn rechts hinten
+Sunroof rear left	Glasdach hinten links
+Sunroof rear left rear	Glasdach hinten links hinten
+Sunroof rear right	Glasdach hinten rechts
+Sunroof rear right rear	Glasdach hinten rechts hinten
+Light blade left	Lichtklinge links
+Light blade right	Lichtklinge rechts
+Cupholder front	Getränkehalter vorn
+Cupholder rear	Getränkehalter hinten
+Console backlit decor	Konsole hinterleuchtetes Dekor
+door backlit decor	Tür hinterleuchtetes Dekor
+Passenger	Beifahrer
+Light	Licht
+no change	keine Änderung
+by hand	von Hand
+not filled	nicht belegt
+driver front	Fahrer vorn
+driver rear	Fahrer hinten
+passenger front	Beifahrer vorn
+passenger rear	Beifahrer hinten
+Changing	Ändere
+Reset peaks	Spitzenwerte zurücksetzen
+Auto / Show / Hide	Auto / Anzeigen / Ausblenden
+on target  ·	im Soll  ·
+·  engine off	·  Motor aus
+High-voltage system	Hochvoltsystem
+Charging not possible	Laden nicht möglich
+Brake system	Bremssystem
+Steering malfunction	Lenkung gestört
+Air conditioning restricted	Klimaanlage eingeschränkt
+Low washer fluid	Wischwasser niedrig
+Clearing all control units...	Lösche alle Steuergeräte...
+units cleared	Steuergeräte gelöscht
+faults back at once after the clear:	Fehler nach dem Löschen sofort wieder da:
+Not cleared -	Nicht gelöscht -
+- scanning again	- scanne erneut
+still refused	weiterhin abgelehnt
+refused now (engine on? ignition only)	gerade abgelehnt (Motor an? nur Zündung)
+best times cleared	Bestzeiten gelöscht
+baseline pinned	Referenz gesetzt
+baseline cleared	Referenz gelöscht
+ready in	bereit in
