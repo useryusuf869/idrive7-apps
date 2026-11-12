@@ -30,6 +30,9 @@ function get(name, size, text) {
     if (text && /[\u1100-\u11ff\u3130-\u318f\ua960-\ua97f\uac00-\ud7ff]/.test(text)) name = 'korean';
     else if (text && /[\u3000-\u9fff\uff00-\uffef]/.test(text)) name = 'cjk';
     else if (text && /[\u0400-\u04ff]/.test(text)) name = 'cyrillic';
+    // Accented Latin letters (German umlauts, sharp s): the label atlases are ASCII, so these come from the
+    // supplemental Latin atlas a German build carries. Without that atlas the requested family is kept.
+    else if (text && /[\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u024f]/.test(text) && family('latin')) name = 'latin';
     const fam = family(name) || family('label');
     if (!fam) return null;
     let best = null;

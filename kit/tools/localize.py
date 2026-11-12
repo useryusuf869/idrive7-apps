@@ -49,11 +49,12 @@ def package_version(version, language):
     return version if language == 'en' else version + '-' + language.lower().replace('-', '.') + '.' + str(revisions.get(language, 1))
 
 
-def localize_spec(spec, language):
+def localize_spec(spec, language, manifest_version=False):
     language = normalize_language(language)
     words = load_locale(language)
     s = copy.deepcopy(spec)
-    s['version'] = package_version(s['version'], language)
+    if not manifest_version:
+        s['version'] = package_version(s['version'], language)
     s['title'] = text(s['title'], words)
     for screen in s.get('screens', []):
         if 'title' in screen:
@@ -64,6 +65,8 @@ def localize_spec(spec, language):
             if len(item) > 2 and isinstance(item[2], str):
                 item[2] = text(item[2], words)
     for setting in s.get('settings', []):
+        if language == 'de' and any(option[0] == 'ps' for option in setting.get('options', [])):
+            setting['default'] = 'ps'  # German builds show power in PS until the owner picks another unit
         setting['label'] = text(setting['label'], words)
         for option in setting.get('options', []):
             option[1] = text(option[1], words)

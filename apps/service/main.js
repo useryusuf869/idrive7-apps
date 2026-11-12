@@ -67,6 +67,11 @@ function parseDue(s, now) {
         left: months > 0 ? n + '개월 후' : months === 0 ? '이번 달' : n + '개월 초과',
         months,
     };
+    if (getLanguage() === 'de') return { // "15. September 2027", "in 3 Monaten", "3 Monate überfällig"
+        text: (d ? d + '. ' : '') + translate(MONTHS[mo - 1]) + ' ' + y,
+        left: months > 0 ? 'in ' + n + (n === 1 ? ' Monat' : ' Monaten') : months === 0 ? translate('this month') : n + unit + ' ' + translate('overdue'),
+        months,
+    };
     const month = d && getLanguage() === 'ru' ? MONTHS_RU_GENITIVE[mo - 1] : translate(MONTHS[mo - 1]);
     return {
         text: (d ? d + ' ' : '') + month + ' ' + y,

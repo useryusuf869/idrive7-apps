@@ -21,6 +21,7 @@ const PLURAL_RULES = {
     },
     'zh-CN': () => 0,
     ko: () => 0,
+    de: (n) => (n === 1 ? 0 : 1), // one | other
 };
 function plural(n, one, other, lang) {
     const key = one + '|' + other, lng = lang || language;
@@ -33,12 +34,13 @@ const folded = Object.create(null);
 Object.keys(dict).forEach((key) => { folded[key.toLowerCase()] = dict[key]; });
 const escape = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const phrases = Object.keys(dict).filter((s) => s.length >= 4 && s.indexOf('|') < 0).sort((a, b) => b.length - a.length);
-const pattern = new RegExp('(^|[^A-Za-z0-9_./])(' + phrases.map(escape).join('|') + ')(?=$|[^A-Za-z0-9_./])', 'gi');
+// Accented Latin letters (German umlauts) are word characters too: a phrase never matches inside a longer word.
+const pattern = new RegExp('(^|[^A-Za-z0-9_./\\u00c0-\\u024f])(' + phrases.map(escape).join('|') + ')(?=$|[^A-Za-z0-9_./\\u00c0-\\u024f])', 'gi');
 function t(value) {
     const s = String(value == null ? '' : value);
     if (language === 'en') return s;
     if (!/[A-Za-z]/.test(s)) return s; // numeric telemetry / already translated labels: hot path
-    if (s.trim() === 'rpm') return s; // preserve the physical unit; uppercase RPM headings may translate
+    if (s.trim() === 'rpm') return language === 'de' ? s.replace('rpm', 'U/min') : s; // preserve the physical unit (German writes U/min); uppercase RPM headings may translate
     if (cache.has(s)) return cache.get(s);
     const key = s.trim();
     if (localizedValues.has(key)) return s;
@@ -57,6 +59,7 @@ function t(value) {
                 .replace(/\bAVG(?=\s+[+-]?\d)/g, 'СРЕД.').replace(/\bACC\b/g, 'РАЗГОН') : s;
         out = out.replace(pattern, (_, before, word) => before + (dict[word] || folded[word.toLowerCase()]));
     }
+    if (language === 'de') out = out.replace(/\brpm\b/g, 'U/min').replace(/\bRPM\b/g, 'U/MIN'); // the unit inside a longer line ("2000 rpm")
     if (cache.size >= 2048) cache.clear();
     cache.set(s, out);
     return out;
