@@ -59,7 +59,7 @@ function t(value) {
                 .replace(/\bAVG(?=\s+[+-]?\d)/g, 'СРЕД.').replace(/\bACC\b/g, 'РАЗГОН') : s;
         out = out.replace(pattern, (_, before, word) => before + (dict[word] || folded[word.toLowerCase()]));
     }
-    if (language === 'de') out = out.replace(/\brpm\b/g, 'U/min').replace(/\bRPM\b/g, 'U/MIN'); // the unit inside a longer line ("2000 rpm")
+    if (language === 'de') out = out.replace(/(^|[^{A-Za-z0-9_])rpm(?![}A-Za-z0-9_])/g, '$1U/min').replace(/(^|[^{A-Za-z0-9_])RPM(?![}A-Za-z0-9_])/g, '$1U/MIN'); // the unit inside a longer line ("2000 rpm")
     if (cache.size >= 2048) cache.clear();
     cache.set(s, out);
     return out;
